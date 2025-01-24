@@ -115,3 +115,9 @@ types :
 Database Schema : the complete structure of entire db.
 
 Table Schema : entire structure of table.
+
+Sub Schema : A portion of the database visible to specific users/applications.
+
+## Query :
+
+it is a request to manipulate a database.
