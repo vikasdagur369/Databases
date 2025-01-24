@@ -103,7 +103,7 @@ SET TRANSACTION -> configures transaction properties.
 
 ## Basic termonologies :-
 
-1. Shema :
+1. Schema :
    defines -> tables ,
    relationship b/w those tables,
    attributes (col) within each table,
@@ -120,4 +120,25 @@ Sub Schema : A portion of the database visible to specific users/applications.
 
 ## Query :
 
-it is a request to manipulate a database.
+## it is a request to manipulate a database.
+
+# Commands:
+
+## commands are case-insenstive in SQl
+
+1. create database HCSTsync;
+   creates a database
+
+2. show databases;
+   shows all databases
+
+to create a table , we have to select location using 'use' keyword.
+
+3. use hcstSync;
+   it will select our databases.
+
+4. Select database();
+   it will show the name of database that is currently selected.
+
+5. drop database hcstSync;
+   it will delete the whole database.
