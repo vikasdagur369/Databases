@@ -62,3 +62,56 @@ multiple students can be associated with multiple projects.
 
 3. Flexiblity in querying :-
    SQL querying is flexible.
+
+## Main categories of SQL commands:
+
+1. DDL (Data definition Language)
+2. DML (Data Manipulation Language)
+3. DCL (Data Control Language)
+4. TCL (transaction control language)
+
+### DDL :-
+
+provides command to define structure of database.
+CREATE -> used to create db, tables, indexes and more
+
+    ALTER -> used to modify
+
+    DROP -> used to delete entire database, tables or objects.
+
+### DML :-
+
+SELECT,INSERT, UPDATE, DELETE
+
+### DCL :-
+
+these commands control access to the data in the databses.
+
+GRANT -> gives a user access privileges to db objects.
+
+REVOKE -> removes access privileges from a user.
+
+### TCL :-
+
+COMMIT -> saves all changes mode during the current tranactions.
+
+ROLLBACK -> undoes changes made during the current transaction.
+
+SAVEPOINT -> set a point within a transactions to which you can roll back.
+
+SET TRANSACTION -> configures transaction properties.
+
+## Basic termonologies :-
+
+1. Shema :
+   defines -> tables ,
+   relationship b/w those tables,
+   attributes (col) within each table,
+   constraints and rules that govern the data,
+   the data type for each field .
+
+types :
+
+Database Schema : the complete structure of entire db.
+
+Table Schema : entire structure of table.
