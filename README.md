@@ -142,3 +142,24 @@ to create a table , we have to select location using 'use' keyword.
 
 5. drop database hcstSync;
    it will delete the whole database.
+
+# Data types in SQL:
+
+## Numbers :
+
+1. Integer
+
+-> TINYINT = 1 byte
+-> SMALLINT = 2 byte
+-> MEDIUMINT = 3 byte
+-> INT/INTEGER = 4 byte
+-> BIGINT = 8 byte
+
+2. Fixed Point
+
+-> FLOAT = 4 byte
+-> DOUBLE = 8 byte
+
+3. Floating Point
+
+-> DECIMAL = varies
